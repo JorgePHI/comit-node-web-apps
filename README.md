@@ -1,12 +1,13 @@
-# Comunidad IT - HTML, CSS, JavaScript, Node.js & MongoDB
+# Comunidad IT
+## Desarrollo de aplicaciones web con HTML, CSS, JavaScript, Node.js & MongoDB
 
-## Programa
+---
 
-## Introducción a la Programación
+### Desarrollo de software: qué podemos hacer y cómo
 
 * [Desarrollo de software: qué podemos hacer y cómo](contenido/1-programacion.md)
 
-## Internet
+### Internet
 
 * [¿Qué es?](contenido/internet.md#qué-es)
 * [Historia](contenido/internet.md#historia)
@@ -14,7 +15,7 @@
 * [Página dinámicas](contenido/internet.md#página-dinámicas)
 * [Videos](contenido/internet.md#videos)
 
-## HTML5 
+### HTML
 * [¿Qué es HTML?](contenido/3-html.md#qué-es-html)
 * [Estructura](contenido/3-html.md#estructura)
 * [Etiquetas](contenido/3-html.md#etiquetas)
@@ -28,7 +29,7 @@
 * [Metadata](contenido/3-html.md#user-content-metadata)
 * [Caracteres Especiales](contenido/3-html.md#user-content-caracteres-especiales)
 
-## CSS
+### CSS
 * [¿Qué es CSS y para qué sirve?](contenido/4-css.md)
 * [¿Cómo seleccionar elementos y definir el color de texto?](contenido/4-css.md)
 * [Colores](contenido/4-css.md)
@@ -37,10 +38,10 @@
 * [Tipografías](contenido/4-css.md)
 * [Modelo de Caja](contenido/4-css.md)
 
-## GIT
+### GIT
 * [¿Qué es y para qué sirve?](contenido/5-git.md)
 
-## JavaScript - Parte I
+### JavaScript - Parte I
 * [Definición](contenido/6-js1.md#definición)
 * [Historia](contenido/6-js1.md#historia)
 * [¿Javascript o Java?](contenido/6-js1.md#)

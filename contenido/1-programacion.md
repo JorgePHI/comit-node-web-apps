@@ -1,6 +1,6 @@
 # Desarrollo de software: qué podemos hacer y cómo
 
-### ¿Qué es programar?
+## ¿Qué es programar?
 
 Programar es, aunque suene obvio, escribir programas informáticos. Es decir, escribir "código" en algún lenguaje de programación para que realice alguna tarea. Los lenguajes que vamos a aprender en el curso son HTML, CSS y Javascript. Otros lenguajes populares son JAVA, Python, PHP, Ruby, C#, VB.NET, ASP.NET, C, C++, Go, Swift y varios más. Entre sí comparten muchos conceptos comunes pero también tienen sus diferencias, y a veces algunos son más adecuados que otros para ciertas tareas. Habitualmente hablamos de "desarrollo de software", en un sentido más amplio que la mera idea de programar o escribir código, ya que nuestro trabajo incluye otras tareas (pruebas, puestas en marcha, etc.).
 
