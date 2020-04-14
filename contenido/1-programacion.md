@@ -1,7 +1,4 @@
-# Programación, ¿Qué es y para qué nos sirve?
-
-
-## Programación, ¿qué es y para qué nos sirve?
+# Desarrollo de software: qué podemos hacer y cómo
 
 ### ¿Qué es programar?
 

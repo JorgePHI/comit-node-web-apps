@@ -4,7 +4,7 @@
 
 ## Introducción a la Programación
 
-* [Programación, ¿qué es y para qué nos sirve?](contenido/1-programacion.md)
+* [Desarrollo de software: qué podemos hacer y cómo](contenido/1-programacion.md)
 
 ## Internet
 
