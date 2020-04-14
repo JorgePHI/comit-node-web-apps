@@ -9,11 +9,11 @@
 
 ### Internet
 
-* [¿Qué es?](contenido/internet.md#qué-es)
-* [Historia](contenido/internet.md#historia)
-* [Programación WEB](contenido/internet.md#programación-web)
-* [Página dinámicas](contenido/internet.md#página-dinámicas)
-* [Videos](contenido/internet.md#videos)
+* [¿Qué es?](contenido/2-internet.md#qué-es)
+* [Historia](contenido/2-internet.md#historia)
+* [Programación WEB](contenido/2-internet.md#programación-web)
+* [Página dinámicas](contenido/2-internet.md#página-dinámicas)
+* [Videos](contenido/2-internet.md#videos)
 
 ### HTML
 * [¿Qué es HTML?](contenido/3-html.md#qué-es-html)
