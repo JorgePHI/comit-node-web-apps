@@ -57,3 +57,7 @@
 * [Propiedades y métodos de string](contenido/6-js1.md#)
 * [Array](contenido/6-js1.md#)
 * [Estructuras de control](contenido/6-js1.md#)
+
+### JavaScript - Parte II
+
+* [Objetos](contenido/7-js2.md#)
