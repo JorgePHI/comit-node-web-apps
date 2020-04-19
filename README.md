@@ -61,3 +61,8 @@
 ### JavaScript - Parte II
 
 * [Objetos](contenido/7-js2.md#)
+* [Funciones](contenido/7-js2.md#)
+* [Objetos y funciones](contenido/7-js2.md#)
+* [Hoisting](contenido/7-js2.md#)
+* [Scope](contenido/7-js2.md#)
+* [Arrow Functions](contenido/7-js2.md#)
