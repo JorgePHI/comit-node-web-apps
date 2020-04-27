@@ -66,3 +66,12 @@
 * [Hoisting](contenido/7-js2.md#)
 * [Scope](contenido/7-js2.md#)
 * [Arrow Functions](contenido/7-js2.md#)
+* [Callbacks](contenido/7-js2.md#)
+
+### JS en el navegador (browser)
+
+* [Ejecutar Javascript](contenido/8-javascript-browser.md#)
+* [Interactuar con lxs usuarixs](contenido/8-javascript-browser.md#)
+* [Location](contenido/8-javascript-browser.md#)
+* [Timers (temporizadores)](contenido/8-javascript-browser.md#)
+* [Trabajar con elementos](contenido/8-javascript-browser.md#)
