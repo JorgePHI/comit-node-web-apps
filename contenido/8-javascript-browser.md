@@ -71,7 +71,7 @@ console.log('Bienvenido al browser')
 
 ## Interactuar con lxs usuarixs
 * Los browsers tienen un objeto llamado **window** que representa la ventana del navegador
-* Este objeto tiene 3 métodos que nos permiten interactuar con el usuario: alert, prompt y confirm
+* Este objeto tiene 3 métodos que nos permiten interactuar con lxs usuarixs: alert, prompt y confirm
 * Estos métodos son muy comunes por lo cual los browsers tienen ya una referencia para poder utilizarlos como funciones
 * Todas estas funcionalidades bloquean el documento hasta que se resuelvan
 
@@ -89,8 +89,8 @@ confirm();
 ```
 
 ### Alert
-* El método/función `alert` muestra un mensaje en pantalla al usuario
-* Acepta como parámetro el mensaje que le queremos mostrar al usuario
+* El método/función `alert` muestra un mensaje en pantalla en un cuadro de diálogo emergente.
+* Acepta como parámetro el mensaje que queremos mostrar.
 
 **Ejemplo:**
 ```js
@@ -102,9 +102,9 @@ alert('Hola, estoy en el browser');
 [Ejercicio 3](../ejercicios/consignas/js-browser/ej3.md)
 
 ### Prompt
-* El método/función `prompt` nos permite pedirle un dato al usuario
-* Este método acepta un mensaje que será mostrado al usuario
-* Retorna un `string` con el valor ingresado por el usuario
+* El método/función `prompt` nos permite pedir un dato en una ventana emergente
+* Este método acepta un mensaje que será mostrado para indicar qué dato esperamos
+* Retorna un `string` con el valor ingresado
 
 **Ejemplo:**
 ```js
@@ -117,9 +117,10 @@ dni = prompt('Ingrese su número de DNI');
 [Ejercicio 5](../ejercicios/consignas/js-browser/ej5.md)
 
 ### Confirm
-* El método/función `confirm` nos permite pedirle al usuario que acepte o cancele una acción
-* Este método acepta un mensaje que será mostrado al usuario
-* Retorna un valor `boolean` true si el usuario confirma la acción y false si la cancela
+* El método/función `confirm` nos permite pedirle a unx usuarix que acepte o cancele una acción
+* Este método acepta un mensaje que será mostrado en un cuadro emergente
+* Además del mensaje, se van a presentar 2 botones con las opciones para aceptar o rechazar
+* Retorna un valor `boolean` true si se confirma la acción y false si se cancela
 
 **Ejemplo:**
 ```js
