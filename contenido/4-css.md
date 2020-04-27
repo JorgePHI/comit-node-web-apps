@@ -995,7 +995,7 @@ div {
 * Muchas veces el browser no sabe como cortar un texto y simplemente se ve mal
 * Esta propiedad acepta los valores **hidden** y **scroll**
 * Con hidden ocultamos el contenido extra
-* Con scroll permitimos que el usuario pueda scrollear el contenido
+* Con scroll permitimos que se pueda scrollear el contenido
 
 **Ejemplo:**
 ```css
@@ -1414,7 +1414,7 @@ div {
 ### Fijar el fondo:
 * Por medio de la propiedad **background-attachment** podemos establecer si queremos fijar o escrolear el fondo según el valor seleccionado:
   * fixed: la imagen se queda fija y el resto del documento parece como si flota sobre la imagen de fondo, esto pasa ya que al establecer esta propiedad en scroll la imagen de fondo se scrollea con el resto del documento.
-  * scroll: la imagen sube y baja según el usuario scrolea
+  * scroll: la imagen sube y baja según se scrollea
 
 **Ejemplo:**
 ```css
@@ -1476,7 +1476,7 @@ div {
   * ::before: Permite establecer un contenido al inicio del elemento/s seleccionado/s
   * ::first-letter: Permite seleccionar la primer letra de un texto
   * ::first-line: Permite seleccionar la primer línea de un texto
-  * ::selection: Permite seleccionar la selección que hace el usuario
+  * ::selection: Permite seleccionar la selección que hace el usuario o usuaria
 * Para before y after podemos utilizar la propiedad **content** para establecer un contenido [(MDN)](https://developer.mozilla.org/es/docs/Web/CSS/content)
 
 **Ejemplo:**
@@ -1541,12 +1541,12 @@ tr:nth-child(odd) {
   * **crosshair:** Es una cruz como si fuera un selector
   * **default:** Es el cursor por defecto, generalmente es una flecha
   * **pointer:** Es la manito que vemos al hacer click en un elemento
-  * **move:** Con este cursor le damos a entender al usuario que puede hacer drag de un elemento ya que son flechas para distintos lados 
+  * **move:** Con este cursor le damos a entender a quien usa la página que puede hacer drag de un elemento ya que son flechas para distintos lados 
   * **text:** Es el selector de texto como si queremos escribir en algún input
-  * **wait:** Es una forma de decirle al usuario que tiene que esperar que alguna acción se termine
+  * **wait:** Es una forma de indicar que hay que esperar que alguna acción se termine
   * **help:** Es un signo de pregunta como podemos ver si queremos ayuda o más información sobre un tema
-* Utilizando estos cursores podemos darle a entender al usuario que acción se puede realizar, por ejemplo si ponemos la manito arriba de un elemento el usuario asume que puede hacer click (por ahora sólo es un efecto visual)
-* Para saber más de esta propiedad pueden leer el [sitio de MDN](https://developer.mozilla.org/es/docs/Web/CSS/cursor)
+* Utilizando estos cursores podemos darle a entender al usuario o usuaria qué acción se puede realizar. Por ejemplo, si ponemos la manito arriba de un elemento se entiende que puede hacer click (por ahora sólo es un efecto visual).
+* Para saber más de esta propiedad pueden leer el [sitio de MDN](https://developer.mozilla.org/es/docs/Web/CSS/cursor).
 
 **Ejemplo: **
 ```css
@@ -1709,7 +1709,7 @@ p {
 [Ejercicio 44](../ejercicios/consignas/css/ej44.md)
 
 ### Posicionamiento absoluto
-* Con este posicionamiento podemos establecer la posición absoluta que queremos que ocupe un elemento en realación a su contenedor. Este elemento es removido del flow normal por lo cual no afecta al resto de los elementos. Estos elementos posicionados de manera absoluta son scrolleados acompañando el scroll del usuario.
+* Con este posicionamiento podemos establecer la posición absoluta que queremos que ocupe un elemento en realación a su contenedor. Este elemento es removido del flow normal por lo cual no afecta al resto de los elementos. Estos elementos posicionados de manera absoluta son scrolleados acompañando el scroll.
 
 **Ejemplo:**
 ```css

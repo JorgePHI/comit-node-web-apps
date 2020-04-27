@@ -83,12 +83,12 @@ Twittea tu respuesta
 
 **Botones para interactuar:**
 
-* Siguiendo o seguir al usuario
+* Siguiendo o seguir a usuarix
 * Respuestas
 * Retwittear
 * Agregar a Pocket
 * Poner que me gusta
-* Mandar un mensaje directo a otro usuario
+* Mandar un mensaje directo a otrx usuarix
 
 En síntesis a la hora de crear páginas web nos vamos a encontrar que cada uno de nuestros proyectos va a tener secciones que tiene una estructura particular. HTML nos brinda las etiquetas para describir las distintas partes de nuestro documento.
 
@@ -510,7 +510,7 @@ En about/about.html:
 ```
 
 ## Link de mail
-* En el atributo **href** podemos establecer un tipo de valor especial **mailto** para decirle al browser que queremos abrir algún programa de envío de mail que tenga instalado el usuario
+* En el atributo **href** podemos establecer un tipo de valor especial **mailto** para decirle al browser que queremos abrir algún programa de envío de mail que esté instalado en el cliente
 * Utilizamos el valor **mailto:dirección@gmail.com** para establecer cual es el mail que queremos utilizar
 
 ```html
@@ -837,7 +837,7 @@ Imagen con ruta absoluta:
 [Sitio 2](../ejercicios/consignas/html/sitio02.md)
 
 ##  Formulario
-* Los formularios son elementos que tienen campos que nos permiten obtener datos del usuario
+* Los formularios son elementos que tienen campos que nos permiten obtener datos de usuarios y usuarias
 * Podemos encontrarlos por todo internet en diferentes formatos:
 
 **Buscadores:**
@@ -879,19 +879,19 @@ Facebook:
     * Texto plano: 'text/plain'
 
 ```html
-<form action="guardar_usuario.html" method="get" enctype="application/x-www-form-urlencoded" >
+<form action="guardar_usuarix.html" method="get" enctype="application/x-www-form-urlencoded" >
   Mi form
 </form>
 ```
 
-* El formulario va a tener un montón de elementos HTML que le permitan al usuario ingresar datos, por ejemplo nombre de usuario y contraseña
+* El formulario va a tener un montón de elementos HTML que permitan ingresar datos, por ejemplo nombre de usuarix y contraseña
 * Utilizando un botón vamos a ejecutar el formulario y enviar todos los datos a otro documento en el cual tenemos programado la forma de analizarlos y actuar en consecuencia
 * Para recibir y utilizar los datos podemos utilizar varios lenguajes de programacion como C#, Java, JavaScript, PHP, Ruby, etc
 * Cada campo de texto va a tener un nombre y de esta forma vamos a reconocer que tipo de dato es
-* Al terminar de utilizar los datos enviamos un archivo de respuesta, por ejemplo al verificar que el usuario nos envió credenciales válidas, le podemos mostrar la página que antes no podía
+* Al terminar de utilizar los datos enviamos un archivo de respuesta, por ejemplo al verificar el envío de credenciales válidas, le podemos mostrar la página que antes no podía
 
 ### Inputs
-* Usando los **inputs** le permitimos al usuario que ingrese o seleccione datos
+* Usando los **inputs** permitimos el ingreso o selección de datos
 * Existen distintos tipos de inputs y cada uno de ellos tiene una funcionalidad distinta
 * Por medio del atributo **type** definimos que tipo de campo es
 
@@ -908,7 +908,7 @@ Facebook:
 ```
 
 * Con el atributo **value** podemos definir el valor del contenido
-* El usuario va a ver este texto pre ingresado en el campo de texto
+* Se va a ver este texto pre ingresado en el campo de texto
 * En caso de querer remplazarlo deberá borrar el valor actual y luego ingresar uno nuevo
 
 **Ejemplo:**
@@ -916,7 +916,7 @@ Facebook:
 <input type="text" name="apellido" value="Sanchez" />
 ```
 
-* Por medio del atributo **placeholder** podemos establecer un texto dentro del input a modo de ejemplo. Este texto no es el valor final del campo y solo lo utilizamos para ayudar al usuario a entender que tipo de valor debe ingresar
+* Por medio del atributo **placeholder** podemos establecer un texto dentro del input a modo de ejemplo. Este texto no es el valor final del campo y solo lo utilizamos para ayudar al usuario o usuaria a entender qué tipo de valor debe ingresar
 * Si utilizamos el atributo **value** y **placeholder** al mismo tiempo vamos a ver el valor asignado dentro del atributo **value**
 
 **Ejemplo:**
@@ -926,7 +926,7 @@ Facebook:
 
 * Existe un atributo **size** que nos permite establecer el tamaño del campo de texto
 * Este atributo acepta un valor numérico con la cantidad de caracteres que queremos ver en el campo
-* Este atributo solo limita la forma en que se ve el campo y no la cantidad de caracteres que puede ingresar el usuario
+* Este atributo solo limita la forma en que se ve el campo y no la cantidad de caracteres que puede ingresarse.
 * Dado que es un atributo visual lo vamos a cambiar desde CSS en el futuro
 
 **Ejemplo:**
@@ -934,7 +934,7 @@ Facebook:
 <input type="text" name="apellido" value="Sanchez" size="20" />
 ```
 
-* Para limitar la cantidad de caracteres que puede ingresar un usuario utilizamos el atributo **maxlength** que acepta un valor numérico con la cantidad máxima de caracteres esperados
+* Para limitar la cantidad de caracteres que puede ingresarse utilizamos el atributo **maxlength** que acepta un valor numérico con la cantidad máxima de caracteres esperados
 
 **Ejemplo:**
 ```html
@@ -946,7 +946,7 @@ Facebook:
 * Es como el campo de texto pero no se ven los caracteres ingresados
 * Para definir este tipo de input utilizamos el **type** password
 * Podemos utilizar los atributos **name**, **value**, **size** y **maxlength** al igual que los campos de texto
-* Si bien el usuario no puede ver los caracteres ingresados esto no significa que sea seguro ya que es solo un efecto visual
+* Si bien el usuario o usuaria no puede ver los caracteres ingresados esto no significa que sea seguro ya que es solo un efecto visual
 * Utilizamos HTTPS para enviar los datos de forma segura entre nuestro cliente al servidor
 
 **Ejemplo:**
@@ -960,12 +960,12 @@ Facebook:
 * Permite enviar o submitear los datos del formulario a otro documento
 * Para definir este tipo de input utilizamos el **type** submit
 * Podemos utilizar el atributo name pero no es necesario ya que es tan solo un botón y no nos brinda ningún dato extra importante
-* El atributo **value** acepta un texto y nos es útil para mostrar un mensaje al usuario
+* El atributo **value** acepta un texto y nos es útil para mostrar un mensaje al usuario o usuaria
 
 **Ejemplo:**
 ```html
 <form>
-  <input type="submit" value="Crear usuario" />
+  <input type="submit" value="Crear usuarix" />
 </form>
 ```
 
@@ -975,10 +975,10 @@ Facebook:
 [Ejercicio 24](../ejercicios/consignas/html/ej24.md)
 
 #### Radio buttons
-* Permite que el usuario seleccione sólo un valor entre algunas opciones
+* Permite que se seleccione sólo un valor entre algunas opciones
 * Para definir este tipo de input utilizamos el **type** radio
 * Utilizamos el atributo **name** para identificar este elemento y luego obtener su valor
-* Dado que este elemento se utiliza junto a otros iguales y la idea es que el usuario seleccione uno solo debemos nombrar a todos los elementos con el mismo **name**
+* Dado que este elemento se utiliza junto a otros iguales y la idea es que se seleccione uno solo, debemos nombrar a todos los elementos con el mismo **name**
 * Para dar un contexto del valor de este elemento debemos escribir algún texto descriptivo junto a ellos
 
 **Ejemplo**
@@ -1006,12 +1006,12 @@ Facebook:
 [Ejercicio 25](../ejercicios/consignas/html/ej25.md)
 
 #### Checkboxes
-* Permite que el usuario seleccione/deseleccione multiples valores entre algunas opciones
-* Para definir este tipo de input utilizamos el **type** checkbox
-* Utilizamos el atributo **name** para identificar este elemento
-* Dado que la selección es múltiple debemos utilizar el mismo **name** para todos los checkboxes de un mismo criterio (ejemplo: elegir super heroes que te gustan)
-* Por medio del atributo **value** establecemos el valor de cada uno de estos elementos
-* El atributo **checked** nos permite activar o seleccionar inicialmente este elemento
+* Permite que se seleccionen/deseleccionen múltiples valores entre algunas opciones.
+* Para definir este tipo de input utilizamos el **type** checkbox.
+* Utilizamos el atributo **name** para identificar este elemento.
+* Dado que la selección es múltiple debemos utilizar el mismo **name** para todos los checkboxes de un mismo criterio (ejemplo: elegir super heroes que te gustan).
+* Por medio del atributo **value** establecemos el valor de cada uno de estos elementos.
+* El atributo **checked** nos permite activar o seleccionar inicialmente este elemento.
 
 **Ejemplo**
 ```html
@@ -1028,11 +1028,11 @@ Facebook:
 [Ejercicio 26](../ejercicios/consignas/html/ej26.md)
 
 ### Hidden
-* En algunos casos podemos necesitar agregar algunos datos que no queremos que el usuario vea en el formulario, para esto utilizamos inputs ocultos
-* Para definir este tipo de input utilizamos el **type** hidden
-* Utilizamos el atributo **name** para identificar este valor y el atributo **value** para establecer el valor del mismo
-* Si el usuario ve el código fuente si puede ver estos campos y valores ya que son parte del código del a página
-* Un caso de uso puede ser ocultar el id de un producto
+* En algunos casos podemos necesitar agregar algunos datos que no queremos que se vean en el formulario, para esto utilizamos inputs ocultos.
+* Para definir este tipo de input utilizamos el **type** hidden.
+* Utilizamos el atributo **name** para identificar este valor y el atributo **value** para establecer el valor del mismo.
+* Si el usuario o usuaria ve el código fuente, sí puede ver estos campos y valores, ya que son parte del código de la página.
+* Un caso de uso puede ser ocultar el id de un producto.
 
 **Ejemplo:**
 ```html
@@ -1052,7 +1052,7 @@ Facebook:
 **Ejemplo:**
 ```html
 <form>
-  <input type="image" src="crear_usuario.png" />
+  <input type="image" src="crear_usuarix.png" />
 </form>
 ```
 
@@ -1068,7 +1068,7 @@ Facebook:
 * Todos ellos tienen el atributo **name** que nos permite identificar el valor ingresado (variable)
 
 ##### Date
-* En muchos casos necesitamos pedirle al usuario que ingrese una fecha, puede ser para saber su nacimiento, venciminto de la tarjeta de crédito, año en el que termino el colegio o para saber su experiencia laboral
+* En muchos casos necesitamos pedirle al usuario o usuaria que ingrese una fecha, puede ser para saber su nacimiento, venciminto de la tarjeta de crédito, año en el que termino el colegio o para saber su experiencia laboral
 * Para definir este tipo de input utilizamos el **type** date
 
 **Ejemplo:**
@@ -1079,7 +1079,7 @@ Facebook:
 ```
 
 ##### Email
-* Este nuevo tipo de input permite que el usuario ingrese su email o correo electrónico
+* Este nuevo tipo de input permite que el usuario o usuaria ingrese su email o correo electrónico
 * Para definir este tipo de input utilizamos el **type** email
 
 **Ejemplo:**
@@ -1090,8 +1090,8 @@ Facebook:
 ```
 
 ##### URL
-* Este nuevo tipo de input permite que el usuario ingrese una url, por ejemplo el usuario puede ingresar la dirección de su sitio personal, trabajos realizados online o cuenta de twitter con la url completa
-* Para definir este tipo de input utilizamos el **type** url
+* Este nuevo tipo de input permite que el usuario o usuaria ingrese una url, por ejemplo puede ingresar la dirección de su sitio personal, trabajos realizados online o cuenta de twitter con la url completa.
+* Para definir este tipo de input utilizamos el **type** url.
 
 **Ejemplo:**
 ```html
@@ -1104,10 +1104,10 @@ Facebook:
 [Ejercicio 29](../ejercicios/consignas/html/ej29.md)
 
 ##### Search
-* Utilizando este nuevo tipo de input podemos pedirle al usuario que ingrese un criterio por el cual vamos a realizar algún tipo de busqueda
-* Para definir este tipo de input utilizamos el **type** search
-* Algunos browsers agregan la funcionalidad de borrar el contenido por medio de algún botón
-* Esta funcionalidad la podemos construir con css y js sin problema
+* Utilizando este nuevo tipo de input podemos pedirle al usuario o usuaria que ingrese un criterio por el cual vamos a realizar algún tipo de búsqueda.
+* Para definir este tipo de input utilizamos el **type** search.
+* Algunos browsers agregan la funcionalidad de borrar el contenido por medio de algún botón.
+* Esta funcionalidad la podemos construir con CSS y JS sin problema.
 
 **Ejemplo:**
 ```html
@@ -1227,7 +1227,7 @@ Facebook:
 **Ejemplo:**
 ```html
 <form>
-  <button>+ Usuario</button>
+  <button>+ Usuarix</button>
 </form>
 ```
 
@@ -1238,15 +1238,15 @@ Facebook:
 <form>
   <button>
     <img src="icono-mas.png" alt="icono del símbolo más" />
-    Usuario
+    Usuarix
   </button>
 </form>
 ```
 
 ### Describir elementos
-* Para comunicarle al usuario que valor tiene que ingresar en cada campo podemos utilizar el elemento **label** o etiqueta
-* Estas etiquetas también nos permiten describirle el contenido de los campos a las personas no videntes
-* Este es un elemento en linea
+* Para comunicarle al usuario o usuaria qué valor tiene que ingresar en cada campo podemos utilizar el elemento **label** o etiqueta.
+* Estas etiquetas también nos permiten describirle el contenido de los campos a las personas no videntes.
+* Este es un elemento en linea.
 
 **Ejemplo:**
 ```html
@@ -1274,8 +1274,8 @@ Facebook:
 </form>
 ```
 
-* La etiqueta **label** tiene un atributo **for** que acepta el nombre del id de un input
-* Si el **label** tiene establecido un atributo **for** el usuario puede hacer click en el texto del label para hacer foco en el input
+* La etiqueta **label** tiene un atributo **for** que acepta el nombre del id de un input.
+* Si el **label** tiene establecido un atributo **for**, el usuario o usuaria puede hacer click en el texto del label para hacer foco en el input.
 
 **Ejemplo:**
 ```html
@@ -1288,8 +1288,8 @@ Facebook:
 ```
 
 ### Agrupar campos
-* Si el formulario es largo está bueno agrupar los campos por algún criterio, por ejemplo datos del usuario, de su auto, etc
-* Para agrupar campos utilizamos la etiqueta **fieldset**
+* Si el formulario es largo está bueno agrupar los campos por algún criterio, por ejemplo datos de la persona, de su casa, etc.
+* Para agrupar campos utilizamos la etiqueta **fieldset**.
 
 **Ejemplo:**
 ```html
@@ -1309,7 +1309,7 @@ Facebook:
 ```html
 <form>
   <fieldset>
-    <legend>Datos del usuario</legend>
+    <legend>Datos de usuarix</legend>
     <label for="idnombre">Nombre:</label>
     <input type="text" name="nombre" id="idnombre" />
     <label for="idapellido">Apellido:</label>
@@ -1322,19 +1322,19 @@ Facebook:
 [Ejercicio 34](../ejercicios/consignas/html/ej34.md)
 
 ### Validar campos
-* Es común tener que validar los datos ingresados por el usuario para verificar que tengamos todo lo que necesitamos y en el formato correcto
-* Validar los formularios en el browser se conoce como validar los datos del lado del cliente
-* Para asegurarnos que los datos son correctos y que no nos interceptaron el request vamos a validar los datos también del lado sel servidor
-* Si bien la doble validación es más trabajo, hace que nuestro código sea más seguro
-* Por otro lado evita enviar datos al servidor que no esten bien y de esta forma ahorrar idas y vueltas entre cliente y servidor
-* HTML5 incorpora algunas funcionalidades que nos permiten validar nuestros formularios
-* Generalmente esta tarea se realiza utilizando JavaScript y lo vamos a ver más adelante
-* Por ahora no podemos customizar o personalizar el mensaje de error que muestran los campos (lo podemos hacer desde JavaScript)
+* Es común tener que validar los datos ingresados para verificar que tengamos todo lo que necesitamos y en el formato correcto.
+* Validar los formularios en el browser se conoce como validar los datos del lado del cliente.
+* Para asegurarnos que los datos son correctos y que no nos interceptaron el request vamos a validar los datos también del lado sel servidor.
+* Si bien la doble validación es más trabajo, hace que nuestro código sea más seguro.
+* Por otro lado evita enviar datos al servidor que no esten bien y de esta forma ahorrar idas y vueltas entre cliente y servidor.
+* HTML5 incorpora algunas funcionalidades que nos permiten validar nuestros formularios.
+* Generalmente esta tarea se realiza utilizando JavaScript y lo vamos a ver más adelante.
+* Por ahora no podemos customizar o personalizar el mensaje de error que muestran los campos (lo podemos hacer desde JavaScript).
 
 #### Campos obligatorios
-* Podemos hacer que un campo sea obligatorio utilizando el atributo **required**
-* Browserser más viejos necesitan que se agregue el valor **required**
-* El form no va a submitear los datos hasta que no este completo
+* Podemos hacer que un campo sea obligatorio utilizando el atributo **required**.
+* Browserser más viejos necesitan que se agregue el valor **required**.
+* El form no va a submitear los datos hasta que no este completo.
 
 **Ejemplo:**
 ```html
@@ -1470,8 +1470,7 @@ Facebook:
   * H264: Internet Explorer y Safari
   * WebM: Android, Chrome, Firefox y Opera
 * Cada browser va a mostrar el reproductor de una forma particular y podemos controlarlo utilizando JavaScript
-* Existe la opción de utilizar flash y un plugin para llegar a más usuarios con distintos browsers
-* Si el browser no soporta el tag **video** va a renderizar el contenido que este entre la etiqueta de apertura y cierre
+* Si el browser no soporta el tag **video** va a renderizar el contenido que esté entre la etiqueta de apertura y cierre
 
 **Ejemplo:**
 ```html
@@ -1487,12 +1486,12 @@ Facebook:
   * **src:** especifíca la ruta al video
   * **width:** establece el ancho del reproductor en pixeles
   * **height:** establece el alto del reproductor en pixeles
-  * **poster:** podemos establecer una imagen que se va a ver mientras se descarga el video o hasta que el usuario le de play
+  * **poster:** podemos establecer una imagen que se va a ver mientras se descarga el video o hasta que el usuario o usuaria haga click en el play.
   * **controls:** con este atributo le decimos al browser que utilice sus propios controles para este reproductor
   * **autoplay:** establecemos que el video tiene que comenzar automáticamente
   * **loop:** repite el video al finalizar
   * **preload:** permite establecer como se debe comportar el reproductor para cargar el video
-    * **none:** no debe hacer nada hasta que el usuario haga click en play
+    * **none:** no debe hacer nada hasta que el usuario o usuaria haga click en play
     * **auto:** el reproductor debe descargar el video ni bien se renderiza el documento
     * **metadata:** sólo descarga información sobre el video como puede ser el tamaño, duración, etc
 * Para más información sobre los atributos de esta etiqueta podemos [leer la documentación](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/video)
