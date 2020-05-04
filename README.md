@@ -68,10 +68,22 @@
 * [Arrow Functions](contenido/7-js2.md#)
 * [Callbacks](contenido/7-js2.md#)
 
-### JS en el navegador (browser)
+### JS en el navegador - Parte I
 
-* [Ejecutar Javascript](contenido/8-javascript-browser.md#)
-* [Interactuar con lxs usuarixs](contenido/8-javascript-browser.md#)
-* [Location](contenido/8-javascript-browser.md#)
-* [Timers (temporizadores)](contenido/8-javascript-browser.md#)
-* [Trabajar con elementos](contenido/8-javascript-browser.md#)
+* [Ejecutar Javascript](contenido/8-javascript-browser-1.md#)
+* [Interactuar con lxs usuarixs](contenido/8-javascript-browser-1.md#)
+* [Location](contenido/8-javascript-browser-1.md#)
+* [Timers (temporizadores)](contenido/8-javascript-browser-1.md#)
+* [DOM y manipulación de elementos HTML](contenido/8-javascript-browser-1.md#)
+* [Práctica extra](contenido/8-javascript-browser-1.md#)
+* [Regex](contenido/8-javascript-browser-1.md#Regex)
+
+### Arquitecturas de web apps
+
+* [Arquitectura MPA](contenido/9-arquitecturas.md)
+* [Arquitectura SPA](contenido/9-arquitecturas.md)
+* [Arquitectura híbrida](contenido/9-arquitecturas.md) 
+
+### JS en el navegador - Parte II: AJAX
+
+* [JSON](contenido/10-javascript-browser-2.md#JSON)
