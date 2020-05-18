@@ -45,7 +45,7 @@
 * [Definición](contenido/6-js1.md#definición)
 * [Historia](contenido/6-js1.md#historia)
 * [¿Javascript o Java?](contenido/6-js1.md#)
-* [Ambientes](contenido/6-js1.md#ambientes)
+* [Ambientes y Node.js](contenido/6-js1.md#ambientes)
 * [Declaración de variables](contenido/6-js1.md#)
 * [Operador de asignación](contenido/6-js1.md#)
 * [Tipos base](contenido/6-js1.md#)
@@ -68,7 +68,7 @@
 * [Arrow Functions](contenido/7-js2.md#)
 * [Callbacks](contenido/7-js2.md#)
 
-### JS en el navegador - Parte I
+### JS en el navegador
 
 * [Ejecutar Javascript](contenido/8-javascript-browser-1.md#)
 * [Interactuar con lxs usuarixs](contenido/8-javascript-browser-1.md#)
@@ -84,6 +84,11 @@
 * [Arquitectura SPA](contenido/9-arquitecturas.md)
 * [Arquitectura híbrida](contenido/9-arquitecturas.md) 
 
-### JS en el navegador - Parte II: AJAX
+### JS en el navegador: AJAX
 
 * [JSON](contenido/10-javascript-browser-2.md#JSON)
+* [XMLHttpRequest / AJAX](contenido/10-javascript-browser-2.md#JSON)
+
+### Web Server con Node + Express
+
+* [Proyectos en Node.js: NPM y package.json](contenido/11-server-node.md)
