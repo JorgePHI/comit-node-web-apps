@@ -141,39 +141,40 @@ IP: 174.129.14.201
 
 * Forma de conectar nuestra compu al destino
 * Estan divididos en grupos: .com .org .net
-* Se distribuyen en forma gerárquica
+* Se distribuyen en forma jerárquica
 * Fué creado para que sea un protocolo de comunicación Público/Abierto
 
 **Ejemplos reales**
 
-Podemos utilizar el comando [nslooup](https://norfipc.com/redes/como-usar-comando-nslookup-windows.html) para obtener información sobre los DNS.
+Podemos utilizar el comando [nslookup](https://norfipc.com/redes/como-usar-comando-nslookup-windows.html) para obtener información sobre los DNS.
 
 ```
 $ nslookup google.com
 
 Non-authoritative answer:
-Name:	google.com
-Address: 64.233.190.101
-Name:	google.com
-Address: 64.233.190.102
-Name:	google.com
-Address: 64.233.190.138
-Name:	google.com
-Address: 64.233.190.100
-Name:	google.com
-Address: 64.233.190.113
-Name:	google.com
-Address: 64.233.190.139
+Name:      google.com
+Addresses: 2800:3f0:4002:802::200e
+           172.217.172.78
 ```
 
 ```
-$ nslookup mercadolibre.com.ar
+$ nslookup developer.mozilla.org
 
 Non-authoritative answer:
-Name:	mercadolibre.com.ar
-Address: 209.225.49.78
-Name:	mercadolibre.com.ar
-Address: 216.33.197.78
+Name:      d1avawhiqh9uo1.cloudfront.net
+Addresses: 2600:9000:21f4:2a00:13:e62f:2040:93a1
+           2600:9000:21f4:0:13:e62f:2040:93a1
+           2600:9000:21f4:2e00:13:e62f:2040:93a1
+           2600:9000:21f4:3a00:13:e62f:2040:93a1
+           2600:9000:21f4:9e00:13:e62f:2040:93a1
+           2600:9000:21f4:4400:13:e62f:2040:93a1
+           2600:9000:21f4:8600:13:e62f:2040:93a1
+           2600:9000:21f4:1200:13:e62f:2040:93a1
+           13.227.70.71
+           13.227.70.81
+           13.227.70.106
+           13.227.70.31
+Aliases:   developer.mozilla.org
 ```
 
 * Tanto DNS como IP están diseñados para poder escalar.
